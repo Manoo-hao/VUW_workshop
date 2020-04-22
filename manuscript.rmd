@@ -1,0 +1,7 @@
+---
+title: "Header information goes between 3 dashes"
+author: "Manoo"
+output: pdf_document
+---
+
+random text
