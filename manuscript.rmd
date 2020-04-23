@@ -4,4 +4,19 @@ author: "Manoo"
 output: pdf_document
 ---
 
+<!--- this is a comment with the most annoying syntax ever.... --->
+<!---ctrl+shift+c on highlighted text comments out a line that's already there--->
+<!---goes in header: csl: nature.csl--->
+<!---goes in header: bibliography: themusiclab.bib
+--->
+<!------>
+
+# Usual md headers
+## ...
+### ...
+###### up to 6 levels I believe
+
 random text
+
+*random italic text*
+**random bold text**

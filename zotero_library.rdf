@@ -1,0 +1,62 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+    </bib:Article>
+    <bib:Article rdf:about="https://doi.org/10.1038/s41570-020-0176-1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2397-3358"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hug</foaf:surname>
+                        <foaf:givenName>Joachim J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krug</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Müller</foaf:surname>
+                        <foaf:givenName>Rolf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Bacteria as genetically programmable producers of bioactive natural products</dc:title>
+        <dcterms:abstract>Next to plants, bacteria account for most of the biomass on Earth. They are found everywhere, although certain species thrive only in specific ecological niches. These microorganisms biosynthesize a plethora of both primary and secondary metabolites, defined, respectively, as those required for the growth and maintenance of cellular functions and those not required for survival but offering a selective advantage for the producer under certain conditions. As a result, bacterial fermentation has long been used to manufacture valuable natural products of nutritional, agrochemical and pharmaceutical interest. The interactions of secondary metabolites with their biological targets have been optimized by millions of years of evolution and they are, thus, considered to be privileged chemical structures, not only for drug discovery. During the last two decades, functional genomics has allowed for an in-depth understanding of the underlying biosynthetic logic of secondary metabolites. This has, in turn, paved the way for the unprecedented use of bacteria as programmable biochemical workhorses. In this Review, we discuss the multifaceted use of bacteria as biological factories in diverse applications and highlight recent advances in targeted genetic engineering of bacteria for the production of valuable bioactive compounds. Emphasis is on current advances to access nature’s abundance of natural products.</dcterms:abstract>
+        <dc:date>April 1, 2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1038/s41570-020-0176-1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>172-193</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2397-3358">
+        <prism:volume>4</prism:volume>
+        <dc:title>Nature Reviews Chemistry</dc:title>
+        <dc:identifier>DOI 10.1038/s41570-020-0176-1</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Nature Reviews Chemistry</dcterms:alternative>
+        <dc:identifier>ISSN 2397-3358</dc:identifier>
+    </bib:Journal>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>10.1038_s41570-020-0176-1</dc:title>
+        <dcterms:hasPart rdf:resource="https://doi.org/10.1038/s41570-020-0176-1"/>
+    </z:Collection>
+</rdf:RDF>
